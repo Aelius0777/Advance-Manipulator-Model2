@@ -27,7 +27,7 @@ The given table is the DH Parameters table for the Manipulator Default position.
 | **2 (Shoulder)** | $\theta_2$ | $0$ | $100\text{ mm}$ | $0\text{ mm}$ |
 | **3 (Elbow)** | $\theta_3$ | $0$ | $120\text{ mm}$ | $0\text{ mm}$ |
 
-
+! [**Rest Position of Manipulator**](Pictures/Default.PNG)
 
 ## 📁 Repository Structure
 - `CAD_file/` - Raw FreeCAD assembly models (`.FCStd`)
