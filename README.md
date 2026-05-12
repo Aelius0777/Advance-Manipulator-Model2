@@ -19,7 +19,7 @@ This repository documents Phase 2 of the 3-DOF robotic manipulator project
 
 The Code is based on Denavit-Hartenberg parameters and is using Forward Kinematics to predict the co-ordinate for the End-Factor of the Manipulator.
 
-The given table is the DH Parameters table for the Manipulator Default position.
+The given table is the DH Parameters table for the Manipulator Default position and the image is the default postion.
 
 | Link ($i$) | Joint Angle ($\theta_i$) | Link Twist ($\alpha_i$) | Link Length ($a_i$) | Link Offset ($d_i$) |
 | :---: | :---: | :---: | :---: | :---: |
@@ -29,8 +29,14 @@ The given table is the DH Parameters table for the Manipulator Default position.
 
 ![**Rest Position of Manipulator**](Pictures/Default.png)
 
+In the Code, it uses DH Matrix transformers to calculate the End-Factor co-ordinates for example: when angle taken as q1 = 0,q2 = -0.5,q3 = 0.5,the co-ordinate of the end-factor comes X= 0.15,Y= 0.0,Z= 0.07. The image is the Active position of Manipulator.
+
+![**Active position of Manipulator**](Pictures/Active.png)
+
 ## 📁 Repository Structure
 - `CAD_file/` - Raw FreeCAD assembly models (`.FCStd`)
 - `STL_files/` - Individual 3D link meshes exported for simulation
 - `MuJoCo/` - Native physics engine XML files mapping joint limits and boundaries
-- `Code/` - Python scripts handling the mathematical calculations (`FK.py`)
+- `Code/` - Python scripts handling the mathematical calculations (`Forward_kine_calculation.py`)
+
+Any Comment on improvement of errors would be appreciated, feel free to look around.
