@@ -23,7 +23,7 @@ The given table is the DH Parameters table for the Manipulator Default position 
 
 | Link ($i$) | Joint Angle ($\theta_i$) | Link Twist ($\alpha_i$) | Link Length ($a_i$) | Link Offset ($d_i$) |
 | :---: | :---: | :---: | :---: | :---: |
-| **1 (Base)** | $\theta_1$ | $\pi/2\$ | $0\text{ mm}$ | $125\text{ mm}$ |
+| **1 (Base)** | $\theta_1$ | $\frac{\pi}{2}$ | $0\text{ mm}$ | $125\text{ mm}$ |
 | **2 (Shoulder)** | $\theta_2$ | $0$ | $100\text{ mm}$ | $0\text{ mm}$ |
 | **3 (Elbow)** | $\theta_3$ | $0$ | $120\text{ mm}$ | $0\text{ mm}$ |
 
