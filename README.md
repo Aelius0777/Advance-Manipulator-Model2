@@ -39,4 +39,6 @@ In the Code, it uses DH Matrix transformers to calculate the End-Factor co-ordin
 - `MuJoCo/` - Native physics engine XML files mapping joint limits and boundaries
 - `Code/` - Python scripts handling the mathematical calculations (`Forward_kine_calculation.py`)
 
+**All measurements are in mm (milimeters) and radians**
+
 Any Comment on improvement of errors would be appreciated, feel free to look around.
